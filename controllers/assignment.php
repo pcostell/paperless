@@ -69,7 +69,6 @@
 				$split = splitDirectory($student);
 				if(in_array($split[0], $student_ids)){
 					$student_dirs []= $student;
-					error_log($student);
 				}
 			}
 						
